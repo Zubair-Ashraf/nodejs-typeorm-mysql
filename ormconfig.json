@@ -1,0 +1,11 @@
+{
+    "type": "mysql",
+    "database": "TypeormDB",
+    "username": "root",
+    "password": "",
+    "logging": true,
+    "synchronize": true,
+    "entities": [
+        "models.{ts,js}"
+    ]
+}

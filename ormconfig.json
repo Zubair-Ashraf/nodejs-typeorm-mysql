@@ -1,11 +1,11 @@
 {
     "type": "mysql",
-    "database": "TypeormDB",
+    "database": "zkode_dev",
     "username": "root",
-    "password": "",
-    "logging": true,
+    "password": "root",
+    "logging": false,
     "synchronize": true,
     "entities": [
-        "models.{ts,js}"
+        "src/models/**/*.ts"
     ]
 }
